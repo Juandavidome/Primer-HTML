@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: black;
+    font-family: 'Times New Roman';
+}
+.Navegacion
+{
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    background-color: white;
+}
+.Navegacion ul
+{
+    list-style: none;
+}
+.Menu > li
+{
+    position:relative;
+    display: inline-block;
+}
+.submenu > li
+{
+    position: relative;
+    display: inline-block;
+}
+.Menu > li > a
+{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+.Menu > li >a:hover
+{
+    color:#25a7ce;
+    transition: all.3s;
+    background-color: black;
+    
+}
+.submenu
+{
+    position: absolute;
+    background: white;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.5s;
+}
+.submenu>li>a
+{
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+.submenu > li>a:hover
+{
+    color:#25a7ce;
+    transition: all.3s;
+}
+.Menu > li:hover > .submenu
+{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu2 > li
+{
+    position: relative;
+    display: inline-block;
+}
+.submenu2
+{
+    position: absolute;
+    background: white;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.5s;
+}
+.submenu2>li>a
+{
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+
+}
+.submenu2 > li>a:hover
+{
+    color:#25a7ce;
+    transition: all.3s;
+}
+.Menu > li:hover > .submenu2
+{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu3 > li
+{
+    position: relative;
+    display: inline-block;
+}
+.submenu3
+{
+    position: absolute;
+    background: white;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.5s;
+}
+.submenu3>li>a
+{
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+.submenu3 > li>a:hover
+{
+    color:#25a7ce;
+    transition: all.3s;
+}
+.Menu > li:hover > .submenu3
+{
+    visibility: visible;
+    opacity: 1;
+}
+.submenu4 > li
+{
+    position: relative;
+    display: inline-block;
+}
+.submenu4
+{
+    position: absolute;
+    background: white;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1.5s;
+}
+.submenu4>li>a
+{
+    display: block;
+    padding: 15px;
+    color: black;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+.submenu4 > li>a:hover
+{
+    color:#25a7ce;
+    transition: all.3s;
+}
+.Menu > li:hover > .submenu4
+{
+    visibility: visible;
+    opacity: 1;
+}
+.image img
+{
+    width: 50px;
+    height: 50px;
+}
+.image2 img
+{
+    position: relative;
+    width: 140px;
+    height: 30px;
+    left: 87%;
+}
+.image3 img
+{
+    position: relative;
+    width: 140px;
+    height: 40px;
+    left: 35%;
+}
+.tablas2>td,th,td
+{
+    position:relative;
+    width: 50%;
+    height: 50%;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+h1{
+    color: aliceblue;
+}
+
